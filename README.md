@@ -4,11 +4,23 @@ example of modular tests using webdriver and cypress to test cards page
 
 ## get started
 
-###
+1. `npm install`
+2. `npm run install-selenium`
+3. `npm run install-cypress`
 
-"test-webdriverio": "wdio ./conf/smoke.wdio.conf.js",
-"install-cypress": "./node_modules/.bin/cypress install",
-"test-cypress": "./node_modules/.bin/cypress run --headed",
-"open-cypress": "./node_modules/.bin/cypress open",
-"install-selenium": "./node_modules/.bin/selenium-standalone install",
-"start-selenium": "./node_modules/.bin/selenium-standalone start"
+### running tests in wdio
+
+1. `npm run start-selenium`
+2. In a new tab: `npm run wdio-test`
+
+#### to use chrome browser
+
+`npm run wdio-test-chrome`
+
+### running tests in cypress
+
+`npm run cypress-tests`
+
+#### to use headed browser
+
+`npm run cypress-tests-headed`

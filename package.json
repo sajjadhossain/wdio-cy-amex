@@ -4,12 +4,14 @@
   "description": "example of modular tests using webdriver and cypress to test cards page",
   "main": "index.js",
   "scripts": {
-    "test-webdriverio": "wdio ./conf/smoke.wdio.conf.js",
+    "wdio-test": "wdio ./conf/smoke-headless.wdio.conf.js",
+    "wdio-test-chrome": "wdio ./conf/smoke.wdio.conf.js",
+    "cypress-test": "./node_modules/.bin/cypress run",
+    "cypress-test-headed": "./node_modules/.bin/cypress run --headed",
     "install-cypress": "./node_modules/.bin/cypress install",
-    "test-cypress": "./node_modules/.bin/cypress run --headed",
-    "open-cypress": "./node_modules/.bin/cypress open",
     "install-selenium": "./node_modules/.bin/selenium-standalone install",
-    "start-selenium": "./node_modules/.bin/selenium-standalone start"
+    "start-selenium": "./node_modules/.bin/selenium-standalone start",
+    "open-cypress": "./node_modules/.bin/cypress open"
   },
   "repository": {
     "type": "git",
@@ -28,9 +30,12 @@
   },
   "homepage": "https://github.com/sajjadhossain/wdio-cy-amex#readme",
   "devDependencies": {
+    "chai": "^4.1.2",
     "cypress": "^3.1.0",
     "selenium-standalone": "^6.15.1",
     "wdio-mocha-framework": "^0.6.2",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-spec-reporter": "^0.1.5",
     "webdriverio": "^4.13.2"
   }
 }

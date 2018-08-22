@@ -1,0 +1,35 @@
+{
+  "root": {
+    "cards": {
+      "id": ".card-tile-wrap",
+      "total": 12,
+      "welcomeOffers": {
+        "id": "//div[@class='card-tile-wrap']//a[@class='offer-button' and text()='Welcome Offer']",
+        "total": 4
+      },
+      "rows": {
+        "id": "//div[@class='card-tile-wrap']//img[@class='card-art']",
+        "0": [
+          0,
+          {
+            "0": {
+              "name": "Business Platinum Card",
+              "id": "a[href='/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/45094?linknav=US-Acq-GCP-BusinessCards-ViewAllCards-CardTitle-Platinum']",
+              "appyCTA": "a[href='https://www.americanexpress.com/us/credit-cards/card-application/apply/business-platinum-charge-card/45094-9-0?intlink=US-Acq-GCP-BusinessCards-ViewAllCards-Apply-Platinum']"
+            },
+            "1": {},
+            "2": {}
+          }
+        ],
+        "1": [
+          ".card-tile-wrap > div",
+          {
+            "0": {},
+            "1": {},
+            "2": {}
+          }
+        ]
+      }
+    }
+  }
+}

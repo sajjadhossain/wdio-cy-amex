@@ -6,8 +6,9 @@ exports.config = {
     maxInstances: 10,
     capabilities: [{
         maxInstances: 5,
-        browserName: 'chrome'
+        browserName: 'phantomjs'
     }],
+    services: ['phantomjs'],
     sync: true,
     logLevel: 'silent',
     coloredLogs: true,
