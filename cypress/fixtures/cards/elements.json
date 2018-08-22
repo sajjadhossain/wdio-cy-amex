@@ -1,0 +1,13 @@
+{
+  "main": {
+    "id": ".AXP_Responsive"
+  },
+  "header": {
+    "id": ".list-header-wrap",
+    "value": "All Cards (12)"
+  },
+  "cards": {
+    "total": 12,
+    "id": ".card-tile-wrap > div > div > section > div > div > div > .card-image-wrap > a > .card-art"
+  }
+}

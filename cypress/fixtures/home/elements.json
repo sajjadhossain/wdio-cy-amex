@@ -1,0 +1,45 @@
+{
+  "main": {
+    "id": ".AXP_Responsive"
+  },
+  "navigation": {
+    "id": "#iNavNGI_Header",
+    "content": {
+      "id": "#iNavHeaderContFloat",
+      "ul": {
+        "total": 4,
+        "id": "ul[id='iNavTier1Nav']",
+        "li": {
+          "0": {
+            "id": "",
+            "value": "My Account"
+          },
+          "1": {
+            "id": "#iNav_Cards",
+            "value": "Cards",
+            "li": {
+              "0": {},
+              "1": {},
+              "2": {
+                "id": "#menu_cards_sbc_viewallcards",
+                "value": "View All Small Business Cards"
+              }
+            }
+          },
+          "2": {
+            "id": "",
+            "value": "Travel"
+          },
+          "3": {
+            "id": "",
+            "value": "Rewards"
+          },
+          "4": {
+            "id": "",
+            "value": "Business"
+          }
+        }
+      }
+    }
+  }
+}
